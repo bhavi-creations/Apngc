@@ -2,12 +2,18 @@
 <html lang="en">
 
 
+
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ANDHRAPRADESH NATIONAL GREEN CROPS|District Details</title>
+	<title>ANDHRAPRADESH NATIONAL GREEN CROPS</title>
 	<!-- Bootstrap core CSS -->
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<!-- Slick Slider CSS -->
 	<link href="css/slick-theme.css" rel="stylesheet" />
@@ -17,6 +23,8 @@
 	<link href="css/animation.css" rel="stylesheet">
 	<!-- Pretty Photo CSS -->
 	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<!-- Custom Main StyleSheet CSS -->
+	<link href="css/component.css" rel="stylesheet">
 	<!-- Pretty Photo CSS -->
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<!-- Pretty Photo CSS -->
@@ -39,7 +47,10 @@
 	<link href="css/color.css" rel="stylesheet">
 	<!-- Responsive CSS -->
 	<link href="css/responsive.css" rel="stylesheet">
+
+
 </head>
+
 
 <body class="demo-5">
 	<!--WRAPPER START-->
@@ -47,10 +58,10 @@
 
 		<?php include 'header.php'; ?>
 		<!-- SAB BANNER START-->
-		<div class="sab_banner overlay">
+		<div class="sab_banner overlay dist_imf">
 			<div class="container">
 				<div class="sab_banner_text">
-					<h2 >District Details</h2>
+					<h2>District Details</h2>
 
 				</div>
 			</div>
@@ -58,7 +69,7 @@
 		<!-- SAB BANNER END-->
 
 		<!-- CITY EVENT2 WRAP START-->
-		<div class="city_health_department">
+		<div class=" ">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2 col-sm-6">
@@ -66,12 +77,12 @@
 					<div class="col-md-8 col-sm-6">
 						<div class="a">
 							<h1 class="org_text">
-								 District Details 
+								District Details
 							</h1>
 							<div class="city_health2_fig">
 
 								<figure>
-									<img src="APMAP.jpg" width="300px" height="550px" alt="">
+									<img src="images/APMAP.jpg" width="300px" height="550px" alt="">
 								</figure>
 							</div>
 						</div>

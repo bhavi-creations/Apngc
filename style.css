@@ -1945,10 +1945,14 @@ div.a {
 	width:100%;
 }
 .sab_banner{
-	background-image:url("images/sab-banner-bg.png");
 	background-repeat:no-repeat;
 	background-size:cover;
 	padding:100px 0px 155px;
+}
+
+.img_wwwq{
+	background-image:url("images/sab-banner-bg.png");
+
 }
 @-webkit-keyframes shafaqat{
   0%{background-position:50% 0}
@@ -1967,10 +1971,7 @@ div.a {
   100%{background-position:330px 0%}
  }
   
-.sab_banner{
-	
-	background: rgba(0, 0, 0, 0) url("images/img/banner1.jpg") repeat scroll 0 0;
-}
+ 
 
 .sab_banner.overlay:before{
 	opacity:0.9;
@@ -2238,14 +2239,11 @@ div.a {
 	==================================
 */
 .city_news2_text,
-.city_news2_fig,
-.city_news2_wrap{
+.city_news2_fig{
 	float:left;
 	width:100%;
 }
-.city_news2_wrap{
-	padding:100px 0px;
-}
+
 .city_news2_fig .overlay:before{
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #df193a);
 	opacity:0.95;
@@ -5959,4 +5957,166 @@ div.a {
 	font-weight: 800;
 	color:  #006a12;
 	font-size: 40px;
+}
+
+@media (min-width:1200px) {
+	
+	.need_space{
+		margin-top: 600px !important;
+		margin-bottom: 150px !important;
+	}
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+	
+	.need_space{
+		margin-top: 500px !important;
+		margin-bottom: 120px !important;
+	}
+}
+
+
+@media (min-width:768px) and (max-width:992px) {
+	
+	.need_space{
+		margin-top: 400px !important;
+		margin-bottom: 120px !important;
+	}
+}
+
+@media  (max-width:768px) {
+	
+	.need_space{
+		margin-top: 200px !important;
+		margin-bottom: 50px !important;
+	}
+
+	.need_img_gap{
+		margin-top: 50px;
+	}
+}
+
+
+.card-title{
+	font-weight: bold !important;
+	margin-top: 20px;
+}
+
+.read_more_text{
+	background-color: #11a64b;
+	color: white !important;
+	padding: 5px 20px;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+
+
+.card_border{
+	border-color: none!important;
+	box-shadow: 0px 4px 10px 0px rgba(0, 106, 18, 0.5);
+
+}
+
+
+.need_top_space{
+margin-bottom: 90px;
+}
+
+.foot_name{
+	color: white;
+}
+
+.bg_colo_footer{
+	background-color: #395538;
+	 
+}
+
+.border_icon_color{
+	border: white 2px solid !important;
+}
+
+.mrg_botm_space{
+	margin-bottom:40px;
+}
+.footer_cont_space{
+	padding-top:  20px !important;
+}
+
+
+.need_top_space_top{
+
+}
+
+.footer_cont_space{
+	color: white;
+}
+
+.color_icon{
+	color: white !important;
+	padding: 8px;
+}
+
+.need_sdie_space{
+	padding: 0px 10px;
+}
+
+.left_sace{
+	padding-left: 0px !important;
+}
+
+.topo_space_align{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.img_gsp{
+	background-image: url("images/gsp.png");
+}
+
+.ngo_img{
+	background-image: url("images/ngo.png");
+
+}
+
+
+.gstp_im{
+	background-image: url("images/banner.jpg");
+
+}
+
+.strcture_img{
+
+	background-image: url("images/structer.jpg");
+
+}
+
+.dist_imf{
+	background-image: url("images/sab-banner-bgv.png");
+	
+}
+
+.need_head_space{
+	margin-top: 150px;
+}
+
+.need_counter_space{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.photomeda{
+	background-image: url("images/media-gallery.jpg");
+
+}
+
+.contact_us_img{
+	background-image: url("images/contactus.jpg");
+}
+.awardst_us_img{
+	background-image: url("images/awards.png");
+}
+
+.scucess_styrs{
+	background-image: url("images/scucess.png");
+
 }

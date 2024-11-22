@@ -2,12 +2,17 @@
 <html lang="en">
 
 
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ANDHRAPRADESH NATIONAL GREEN CROPS|Action Palns</title>
+  <title>ANDHRAPRADESH NATIONAL GREEN CROPS</title>
   <!-- Bootstrap core CSS -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
   <link href="css/bootstrap.css" rel="stylesheet">
   <!-- Slick Slider CSS -->
   <link href="css/slick-theme.css" rel="stylesheet" />
@@ -17,6 +22,8 @@
   <link href="css/animation.css" rel="stylesheet">
   <!-- Pretty Photo CSS -->
   <link href="css/prettyPhoto.css" rel="stylesheet">
+  <!-- Custom Main StyleSheet CSS -->
+  <link href="css/component.css" rel="stylesheet">
   <!-- Pretty Photo CSS -->
   <link href="css/jquery.bxslider.css" rel="stylesheet">
   <!-- Pretty Photo CSS -->
@@ -39,7 +46,10 @@
   <link href="css/color.css" rel="stylesheet">
   <!-- Responsive CSS -->
   <link href="css/responsive.css" rel="stylesheet">
+
+
 </head>
+
 <style>
   * {
     box-sizing: border-box;
@@ -129,17 +139,17 @@
 
     <?php include 'header.php'; ?>
     <!-- SAB BANNER START-->
-    <div class="sab_banner overlay">
+    <!-- <div class="sab_banner overlay">
       <div class="container">
         <div class="sab_banner_text">
           <h2>Action Palns</h2>
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- SAB BANNER END-->
 
-    <div class="container">
+    <div class="container  need_head_space">
       <div class="col-md-7">
         <div class="heding_full">
 
@@ -254,45 +264,48 @@
         setTimeout(showSlides, 2000); // Change image every 2 seconds
       }
     </script>
+    <section>
+      <div class=" container need_counter_space">
+        <div class="row">
 
-    <div class="city_services2_wrap">
 
-      <div class="col-md-4 col-sm-6">
-        <h4 class="action_plans">Activity Catalogue</h4>
-        <li><a href="#"><i class="fa fa-star-o"></i> Seminars, debates, symposium and talks on environmental issues</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Field visits to environmentally challenged areas such as polluted and degraded sites</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Visits to wild life parks, sanctuaries, forests and other areas of natural interest</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Pursue activities like tree plantation, cleanliness drive within and outside school premises</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Involve in kitchen gardening, water harvesting, building bird houses, composting, paper recycling</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Organize sanitation and hygiene awareness programmes with the help of posters, slogan writing</a></li>
+          <div class="col-md-4 col-sm-6">
+            <h4 class="action_plans">Activity Catalogue</h4>
+            <li><a href="#"><i class="fa fa-star-o"></i> Seminars, debates, symposium and talks on environmental issues</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Field visits to environmentally challenged areas such as polluted and degraded sites</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Visits to wild life parks, sanctuaries, forests and other areas of natural interest</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Pursue activities like tree plantation, cleanliness drive within and outside school premises</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Involve in kitchen gardening, water harvesting, building bird houses, composting, paper recycling</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Organize sanitation and hygiene awareness programmes with the help of posters, slogan writing</a></li>
+
+          </div>
+          <div class="col-md-4 col-sm-6">
+
+            <h4 class="action_plans">Intervention Snapshot</h4>
+
+            <li><a href="#"><i class="fa fa-star-o"></i> Selection of District coordinators.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Selection of schools by the DEOs.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Identification of master trainers at the district level.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Nomination of green teachers by HM.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Formation of Eco Club and enrolment of students as members.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Train the Trainers programme – Master trainer to train the green teachers.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Training of Master trainers.</a></li>
+            <li><a href="#"><i class="fa fa-star-o"></i> Commencement and continuity of phase wise activities in schools by the teachers.</a></li>
+
+
+
+
+
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4 class="action_plans">Going Forward</h4>
+
+            <li> NGC proposes the creation of a blog and digital newsletter to showcase the best practices, performance, activities, achievements and the creative talents of the green brigade.</li>
+          </div>
+        </div>
 
       </div>
-      <div class="col-md-4 col-sm-6">
-
-        <h4 class="action_plans">Intervention Snapshot</h4>
-
-        <li><a href="#"><i class="fa fa-star-o"></i> Selection of District coordinators.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Selection of schools by the DEOs.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Identification of master trainers at the district level.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Nomination of green teachers by HM.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Formation of Eco Club and enrolment of students as members.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Train the Trainers programme – Master trainer to train the green teachers.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Training of Master trainers.</a></li>
-        <li><a href="#"><i class="fa fa-star-o"></i> Commencement and continuity of phase wise activities in schools by the teachers.</a></li>
-
-
-
-
-
-      </div>
-      <div class="col-md-4 col-sm-6">
-        <h4 class="action_plans">Going Forward</h4>
-
-        <li> NGC proposes the creation of a blog and digital newsletter to showcase the best practices, performance, activities, achievements and the creative talents of the green brigade.</li>
-      </div>
-
-
-    </div>
+    </section>
     <!-- CITY SERVICES2 WRAP END-->
 
     <!--Table section -->

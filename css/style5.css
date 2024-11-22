@@ -23,7 +23,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .btn--search-close {
@@ -136,7 +136,7 @@
 }
 
 .js .main-wrap--move {
-	transform: scale3d(0.7,0.7,1);
+	transform: scale3d(0.7, 0.7, 1);
 }
 
 .js .main-wrap--move .btn--search {
@@ -195,13 +195,13 @@
 }
 
 .js .search__input {
-	transform: scale3d(0,1,1);
+	transform: scale3d(0, 1, 1);
 	transform-origin: 0% 50%;
 	transition: transform 0.3s;
 }
 
 .js .search--open .search__input {
-	transform: scale3d(1,1,1);
+	transform: scale3d(1, 1, 1);
 	transition-duration: 0.5s;
 }
 
@@ -209,12 +209,308 @@
 	.btn--search-close {
 		font-size: 1.25em;
 	}
+
 	.search__suggestion {
 		font-size: 80%;
 		width: 100%;
 	}
+
 	.search__suggestion:nth-child(2),
 	.search__suggestion:nth-child(3) {
 		display: none;
 	}
 }
+@media (min-width:768px) {
+	.bg-image {
+		background-image: url('../images/img/details-of-cool-forest-photo w.jpg');
+		/* Correct the path and remove spaces */
+		background-size: cover;
+		/* Ensures image covers the section */
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 18vh;
+		/* Adjust based on your content */
+		display: flex;
+		align-items: center;
+		/* Centers vertically */
+		justify-content: center;
+		/* Centers horizontally */
+		color: white;
+		text-align: center;
+	}
+}
+@media (max-width:768px) {
+	.bg-image {
+		background-image: url('../images/img/details-of-cool-forest-photo w.jpg');
+		/* Correct the path and remove spaces */
+		background-size: cover;
+		/* Ensures image covers the section */
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 13vh;
+		/* Adjust based on your content */
+		display: flex;
+		align-items: center;
+		/* Centers vertically */
+		justify-content: center;
+		/* Centers horizontally */
+		color: white;
+		text-align: center;
+	}
+}
+
+
+/* Logo size */
+
+@media (min-width:768px) {
+	.aplogo_size {
+		width: 1000% !important;
+		/* Scales logos */
+		max-width: 100px;
+		margin-top: 20px;
+	}
+
+	.aplogo_size_pp {
+		width: 100% !important;
+		/* Scales logos */
+		max-width: 80px;
+	}
+	
+	
+	.aplogo_size_pp2 {
+		width: 113% !important;
+		/* Scales logos */
+		max-width:81px;
+		margin-top:  0px;
+	}
+}
+
+@media (max-width:768px) {
+	.aplogo_size {
+		width:400% !important;
+		/* Scales logos */
+		max-width: 100px;
+		margin-top:  0px;
+	}
+}
+.profile_pic {
+	border-radius: 50%;
+}
+
+
+
+ 
+ @media (min-width:1200px){
+	.text_need_white {
+		color: rgb(255, 255, 255);
+		font-size: 33px;
+		margin: 0;
+		font-weight: bold;
+		margin-top: 30px;
+	 
+		-webkit-text-stroke: 1.5px #5900ff; /* Border color and thickness */
+	 
+	}
+	
+	.text_need_white_small {
+		color: white;
+		font-size: 33px;
+		font-weight: 1000;
+		-webkit-text-stroke: 1.5px #5900ff; /* Border color and thickness */
+	}
+ }
+ @media (min-width:992px) and (max-width:1200px){
+	.text_need_white {
+		color: white;
+		font-size: 30px;
+		margin: 0;
+		font-weight: bold;
+		margin-top: 30px;
+	 
+		-webkit-text-stroke: 1.5px #5900ff; /* Border color and thickness */
+	 
+	}
+	
+	.text_need_white_small {
+		color: white;
+		font-size: 30px;
+		font-weight: 1000;
+		-webkit-text-stroke: 1.5px #5900ff; /* Border color and thickness */
+	}
+ }
+
+ @media (min-width:768px) and (max-width:992px){
+	.text_need_white {
+		color: white;
+		font-size: 30px;
+		margin: 0;
+		font-weight: bold;
+		margin-top: 30px;
+	 
+		-webkit-text-stroke: 1.5px #5900ff; /* Border color and thickness */
+	 
+	}
+	
+	.text_need_white_small {
+		color: white;
+		font-size: 30px;
+		font-weight: 1000;
+		-webkit-text-stroke: 1.5px #5900ff; /* Border color and thickness */
+	}
+ }
+ @media   (max-width:768px){
+	.text_need_white {
+		color: white;
+		font-size:15px;
+		margin: 0;
+		font-weight: bold;
+		margin-top: 0px;
+	 
+		/* -webkit-text-stroke: 1.5px #000000;  */
+	 
+	}
+	
+	.text_need_white_small {
+		color: white;
+		font-size: 15px;
+		font-weight: 1000;
+		margin-top: -20px;
+		/* -webkit-text-stroke: 1.5px #000000;  */
+	}
+
+	.aplogo_size_pp {
+		width:200% !important;
+		/* Scales logos */
+		max-width: 100px;
+		margin-left: -30px;
+	}
+	
+	
+	.aplogo_size_pp2 {
+		width: 200% !important;
+		/* Scales logos */
+		max-width:100px;
+		margin-left: -20px;
+		 
+	}
+ }
+/* Extra spacing for second logo in the last column */
+.ms-3 {
+	margin-left: 5rem;
+}
+
+.pp_bio {
+	color: white;
+	font-weight: bold;
+	-webkit-text-stroke: .5px #000000; /* Border color and thickness */
+
+}
+
+
+.pp_bio2 {
+	color: white;
+	font-size:12px;
+ 
+	font-weight: bold;
+	-webkit-text-stroke: .5px #979494; /* Border color and thickness */
+}
+
+
+.collapse {
+	transition: height 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .collapse.show {
+	opacity: 1;
+  }
+  
+  .collapse:not(.show) {
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+  }
+  
+
+
+
+
+
+
+  /* From Uiverse.io by suleymanlaarabidev */ 
+.card_img_pic {
+	width: 190px;
+	height: 254px;
+	transition: all 0.4s;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 5px  rgba(51, 202, 5, 0.233);
+	font-size: 30px;
+	font-weight: 900;
+	/* background:none; */
+	text-align: center;
+
+  }
+  
+  .card_img_pic:hover {
+	border-radius: 15px;
+	cursor: pointer;
+	transform: scale(1.2);
+	box-shadow: 0px 0px 10px 5px  rgba(85, 164, 5, 0.392);
+	background: rgba(2, 161, 143, 0.218);
+
+  }
+  
+  .first-content {
+	height: 100%;
+	width: 100%;
+	transition: all 0.4s;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	opacity: 1;
+	border-radius: 15px;
+  }
+  
+  .card_img_pic:hover .first-content {
+	height: 0px;
+	opacity: 0;
+  }
+  
+  .second-content {
+	height: 0%;
+	width: 100%;
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	transition: all 0.4s;
+	font-size: 0px;
+	transform: rotate(90deg) scale(-1);
+  }
+  
+  .card_img_pic:hover .second-content {
+	opacity: 1;
+	height: 100%;
+	font-size: 1.8rem;
+	transform: rotate(0deg);
+  }
+  
+
+  .ips_name{
+
+	font-weight: bold;
+	color: black;
+  }
+
+  .ips_catageroy{
+	text-align: center;
+	/* color: rgb(52, 51, 51); */
+  }
+
+
+  .neeed_card_center{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  }
