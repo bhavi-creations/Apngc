@@ -42,7 +42,7 @@
 				<p class="foot_name">Archive</p>
 
 				<p class="foot_name">Hyprelinking Policy</p>
-				<p class="foot_name">COntactUs</p>
+				<p class="foot_name">Contact Us</p>
 
 			</div>
 

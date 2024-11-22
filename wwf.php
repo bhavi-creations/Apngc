@@ -66,7 +66,7 @@
         <!-- SAB BANNER END-->
 
         <!-- CITY SERVICES2 WRAP START-->
-        <div class="city_services2_wrap">
+        <!-- <div class="city_services2_wrap">
             <div class="container">
                 <div class="row">
 
@@ -74,7 +74,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- CITY SERVICES2 WRAP END-->
         <?php include 'footer.php'; ?>
     </div>

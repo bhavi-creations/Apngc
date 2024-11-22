@@ -137,7 +137,7 @@ div.a {
 	font-weight:600;
 	margin-right:34px;
 	position:relative;
-	float:left;
+	float:left
 }
 .city_top_news span:before{
 	position:absolute;
@@ -321,8 +321,8 @@ div.a {
 .navigation ul li ul li a:before{
 	position:absolute;
 	content:"\f105";
-	top:7px;
-	left:15px;
+	top:-15px;
+	left:5px;
 	right:0px;
 	bottom:0px;
 	font-family:fontAwesome;
@@ -456,15 +456,15 @@ div.a {
 /*slick slider start*/
 .city_main_banner .slick-prev, 
 .city_main_banner .slick-next{
-	top:auto;
+	/* top:auto; */
 	bottom:8px;
 	height:44px;
 	width:44px;
-	left:100px;
+	left:50px;
 }
 .city_main_banner .slick-next{
 	right:auto;
-	left:150px;
+	left:93% 	;
 }
 .city_main_banner .slick-prev:before, 
 .city_main_banner .slick-next:before{
@@ -6119,4 +6119,9 @@ margin-bottom: 90px;
 .scucess_styrs{
 	background-image: url("images/scucess.png");
 
+}
+
+.neeed_spaxe_size{
+	margin-top: 400px;
+	margin-bottom: 50px;
 }

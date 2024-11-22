@@ -66,9 +66,9 @@
             </div>
         </div>
         <!-- SAB BANNER END-->
-        <div class="city_services2_wrap">
+        <div class=" neeed_spaxe_size">
       <div class="container">
-        <div class="row">
+        <div class="row text-center">
           <div class="col-md-3">
             <img src="images/img/media1/2.png" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
@@ -83,7 +83,7 @@
           </div>
 
         </div>
-        <div class="row">
+        <div class="row  text-center">
           <div class="col-md-3">
             <img src="images/img/media1/7.png" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
@@ -97,7 +97,7 @@
             <img src="images/img/media1/11.png" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
           </div>
         </div>
-        <div class="row">
+        <div class="row  text-center">
           <div class="col-md-3">
             <img src="images/img/media1/12.png" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
@@ -111,7 +111,7 @@
             <img src="images/img/media1/15.png" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
           </div>
         </div>
-        <div class="row">
+        <div class="row  text-center">
           <div class="col-md-3">
             <img src="images/img/media1/16.png" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
           </div>
