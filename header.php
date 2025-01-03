@@ -1,3 +1,25 @@
+<?php
+	// X-Frame-Options for legacy browser support
+	header("X-Frame-Options: DENY");
+
+	// Content-Security-Policy for modern browser support
+	header("Content-Security-Policy: frame-ancestors 'self'; img-src 'self'; ");
+
+	// Prevent MIME type sniffing
+	header("X-Content-Type-Options: nosniff");
+
+	// Enable XSS protection
+	header("X-XSS-Protection: 1; mode=block");
+
+	// Strict Transport Security (HSTS)
+	header("Strict-Transport-Security: max-age=63072000; includeSubDomains; preload");
+
+	// Referrer-Policy: Control referrer information
+	header("Referrer-Policy: strict-origin-when-cross-origin");
+
+	// Permissions-Policy: Restrict API and feature usage
+	header("Permissions-Policy: geolocation=(), camera=(), microphone=(), fullscreen=(self)");
+?>
 <header>
 	<!--CITY TOP WRAP START-->
 	<!-- <div class="city_top_wrap">
