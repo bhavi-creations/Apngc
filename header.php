@@ -60,7 +60,7 @@
 	<!--CITY TOP WRAP END-->
 
 	<!--CITY TOP NAVIGATION START-->
-	<div class="city_top_navigation">
+	<!-- <div class="city_top_navigation">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -97,7 +97,6 @@
 
 									<li><a href="awards.php">Awards</a></li>
 									<li><a href="success_stories.php">Success Stories</a></li>
-									<!-- <li><a href="media.php">Media</a></li> -->
 								</ul>
 							</li>
 							<li><a href="contact.php">Contact Us</a></li>
@@ -109,14 +108,14 @@
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!--CITY TOP NAVIGATION END-->
 
 	<!--CITY TOP NAVIGATION START-->
-	<div class="city_top_navigation hide">
+	<div class="city_top_navigation">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<div class="navigation">
 						<ul>
 							<li><a href="index.php">Home</a></li>
