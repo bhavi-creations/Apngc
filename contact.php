@@ -78,8 +78,7 @@
                         <h5> Flat No. 101, Fortune Brundhavan Buildings-B<br>
                             M.G.Inner Ring Road,Agathavarapadu,<br>
                             Guntur-522509,<br>
-                            Andhra Pradesh<br>
-                            Email:<font color="blue"> directorapngc@gmail.com.</font>
+                            Andhra Pradesh
                         </h5>
                     </div>
 
