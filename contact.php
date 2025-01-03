@@ -85,7 +85,7 @@
                     <div class="city_contact_map">
 
                         <div id="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61264.26815100297!2d80.38540724060921!3d16.32208790483194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f52b6f82976f%3A0x6bf36dbe1a164cce!2sFortune%20brundhavan%20apartment%2C%20Inner%20ring%20road!5e0!3m2!1sen!2sin!4v1722503658745!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61262.51827553703!2d80.3919151906405!3d16.327675453615647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f52b6f82976f%3A0x6bf36dbe1a164cce!2sFortune%20brundhavan%20apartment%2C%20Inner%20ring%20road!5e0!3m2!1sen!2sin!4v1735913474946!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
@@ -130,8 +130,6 @@
     <!--Pretty Photo JavaScript-->
     <script src="js/waypoints-sticky.js"></script>
 
-    <!--Map-->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
     <!--Custom JavaScript-->
     <script src="js/custom.js"></script>
     <script>
